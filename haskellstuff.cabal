@@ -1,5 +1,5 @@
 cabal-version:      2.4
-name:               haskellshit
+name:               haskellstuff
 version:            0.1.0.0
 
 -- A short (one-line) description of the package.
@@ -16,11 +16,11 @@ version:            0.1.0.0
 author:             Zaid "Nico"
 maintainer:         me@zaid-arshad.tech
 
-executable haskellshit
-    main-is:          main.hs
+executable haskellstuff
+    main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
-    -- other-modules:
+    other-modules: DataTypes, FunctionPractice
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
