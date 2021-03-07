@@ -21,3 +21,15 @@ isOneOrThree :: (Eq a, Num a) => a -> Bool
 isOneOrThree a
   | (a == 1) || (a == 3) = True
   | otherwise = False
+
+{-
+  Function Composition
+-}
+
+thirdPower :: Num a => a -> a
+thirdPower num = num ^ 3
+addFive :: Num a => a -> a
+addFive num2 = num2 + 5
+
+squareOfAddFive :: Num a => a -> a
+squareOfAddFive x = addFive(thirdPower x)

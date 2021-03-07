@@ -1,5 +1,6 @@
 import DataTypes
 import FunctionPractice
+import Comparison
 
 {-
     Variables:
@@ -7,6 +8,7 @@ import FunctionPractice
 -}
 x :: Bool
 x = 2 /= 2
+
 
 main :: IO ()
 main = putStrLn "stuff"
